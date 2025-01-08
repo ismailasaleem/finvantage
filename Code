@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FinVantage - Student Finance Research Group</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            line-height: 1.6;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: #1c1c1c;
+
+            color: #d3d3d3;
+
+        }
+
+        header {
+
+            background: #2b2b2b;
+
+            color: #fff;
+
+            padding: 1rem 0;
+
+            text-align: center;
+
+            position: relative;
+
+        }
+
+        nav {
+
+            display: flex;
+
+            justify-content: center;
+
+            background: #333;
+
+            color: #fff;
+
+        }
+
+        nav a {
+
+            color: #fff;
+
+            text-decoration: none;
+
+            margin: 0 15px;
+
+            padding: 10px;
+
+        }
+
+        nav a:hover {
+
+            background: #444;
+
+        }
+
+        .container {
+
+            width: 80%;
+
+            margin: auto;
+
+            overflow: hidden;
+
+        }
+
+        section {
+
+            margin: 20px 0;
+
+            padding: 20px;
+
+            background: #2b2b2b;
+
+            border-radius: 8px;
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .values-list, .sectors-list {
+
+            list-style: none;
+
+            padding: 0;
+
+        }
+
+        .values-list li, .sectors-list li {
+
+            padding: 10px 0;
+
+        }
+
+        footer {
+
+            background: #333;
+
+            color: #fff;
+
+            text-align: center;
+
+            padding: 1rem 0;
+
+        }
+
+        .pdf-link {
+
+            color: #7f7fff;
+
+            text-decoration: none;
+
+        }
+
+        .pdf-link:hover {
+
+            text-decoration: underline;
+
+        }
+
+        .logo {
+
+            position: absolute;
+
+            top: 10px;
+
+            left: 10px;
+
+            width: 50px;
+
+            height: 50px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="logo.png" alt="FinVantage Logo" class="logo">
+
+        <h1>FinVantage - Student-Run Finance Research Group</h1>
+
+        <p>Founded by Ismail Saleem</p>
+
+    </header>
+
+    
+
+    <nav>
+
+        <a href="#about">About Us</a>
+
+        <a href="#sectors">Our Divisions</a>
+
+        <a href="#reports">Research Reports</a>
+
+        <a href="#values">Our Philosophy</a>
+
+    </nav>
+
+
+
+    <div class="container">
+
+        <section id="about">
+
+            <h2>About Us</h2>
+
+            <p>Welcome to FinVantage, a student-led finance research group dedicated to exploring and analyzing current trends in the financial world. We aim to provide valuable insights into market developments and inspire young finance enthusiasts to collaborate and grow.</p>
+
+            <p>Our team is comprised of students passionate about finance, constantly learning and striving to provide quality research in various finance sectors.</p>
+
+        </section>
+
+
+
+        <section id="sectors">
+
+            <h2>Our Divisions</h2>
+
+            <ul class="sectors-list">
+
+                <li><strong>Mergers & Acquisitions (M&A):</strong> Researching and analyzing key trends in M&A activity across industries.</li>
+
+                <li><strong>Equity Research:</strong> Providing in-depth analysis of equity markets, stock trends, and company performance.</li>
+
+                <li><strong>Debt Markets:</strong> Exploring developments in bond markets, interest rates, and credit analysis.</li>
+
+                <li><strong>Macroeconomics:</strong> Studying global economic trends, policy impacts, and market implications.</li>
+
+                <li><strong>Sustainable Finance:</strong> Evaluating ESG investments, green bonds, and corporate sustainability practices.</li>
+
+                <li><strong>Technology and FinTech:</strong> Analyzing disruptive technologies and their impact on the financial sector.</li>
+
+            </ul>
+
+        </section>
+
+
+
+        <section id="reports">
+
+            <h2>Research Reports</h2>
+
+            <p>Browse through our collection of research reports on current financial issues. All reports are branded with our logo and available for download as PDFs:</p>
+
+            <ul>
+
+                <li><a class="pdf-link" href="#">Impact of Rising Interest Rates on M&A Activity</a></li>
+
+                <li><a class="pdf-link" href="#">Sustainable Finance: Trends and Challenges</a></li>
+
+                <li><a class="pdf-link" href="#">Tech Sector Valuations in 2025</a></li>
+
+                <li><a class="pdf-link" href="#">Debt Markets Amid Global Economic Slowdown</a></li>
+
+            </ul>
+
+        </section>
+
+
+
+        <section id="values">
+
+            <h2>Our Philosophy</h2>
+
+            <p>At FinVantage, we are guided by the following principles:</p>
+
+            <ul class="values-list">
+
+                <li>Collaboration: We believe in the power of teamwork and shared knowledge.</li>
+
+                <li>Integrity: We are committed to producing honest, unbiased research.</li>
+
+                <li>Growth: We continuously learn and grow, both as individuals and as a group.</li>
+
+                <li>Innovation: We embrace new ideas and explore innovative approaches to finance.</li>
+
+            </ul>
+
+        </section>
+
+    </div>
+
+
+
+    <footer>
+
+        <p>&copy; 2025 FinVantage. All rights reserved. | Designed by Ismail Saleem</p>
+
+    </footer>
+
+</body>
+
+</html>
